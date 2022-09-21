@@ -1,0 +1,13 @@
+body {
+    font-size: 15pt;
+    padding: 8px;
+    background-color: rgb(30, 33, 37);
+    font-family: monospace;
+    text-align: center;
+    color: #ccc;
+}
+  
+span {
+    font-size: 15pt;
+    color: white;
+}

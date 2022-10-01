@@ -1,5 +1,34 @@
 # HTML Lecture Notes
 
+This page will automatically be updated to include all the HTML tags that have been taught in the class. To discuss any academic doubt, *or just rant about your day*, you can join **[our Discord server (group)](https://discord.lpucoders.club)**.
+
+If you want to help me keep this page updated, or just talk, please message me on [Instagram](https://instagram.com/ba3a.gamzo) / [Discord](https://discordapp.com/users/585512479241666570).
+*<p>-Ba3a</p>*
+
+***
+
+### The Table Of Contents
+- [HTML Lecture Notes](#html-lecture-notes)
+    - [The Table Of Contents](#the-table-of-contents)
+  - [The <!DOCTYPE> Declaration](#the-doctype-declaration)
+  - [The Head Element](#the-head-element)
+  - [The Title Tag](#the-title-tag)
+  - [The HTML `<meta>` Element](#the-html-meta-element)
+  - [Setting The Viewport](#setting-the-viewport)
+  - [HTML Headings](#html-headings)
+  - [HTML Paragraphs](#html-paragraphs)
+  - [HTML Formatting Elements](#html-formatting-elements)
+  - [The style Attribute](#the-style-attribute)
+  - [HTML `<cite>` Tag](#html-cite-tag)
+  - [HTML Links](#html-links)
+  - [HTML `<span>` Tag](#html-span-tag)
+  - [HTML Horizontal Rules](#html-horizontal-rules)
+  - [HTML Line Breaks](#html-line-breaks)
+  - [The HTML `<pre>` Element](#the-html-pre-element)
+  - [HTML Comment Tag](#html-comment-tag)
+  - [HTML `<meter>` Tag](#html-meter-tag)
+
+
 ## The <!DOCTYPE> Declaration
 The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
 It must only appear once, at the top of the page (before any HTML tags). The `<!DOCTYPE>` declaration is not case sensitive.

@@ -27,6 +27,12 @@ If you want to help me keep this page updated, or just talk, please message me o
   - [The HTML `<pre>` Element](#the-html-pre-element)
   - [HTML Comment Tag](#html-comment-tag)
   - [HTML `<meter>` Tag](#html-meter-tag)
+  - [The `<abbr>` Tag](#the-abbr-tag)
+  - [The `<del>` and `<ins>` Tags](#the-del-and-ins-tags)
+  - [The `<mark>` Tag](#the-mark-tag)
+  - [The `<kbd>` Tag](#the-kbd-tag)
+  - [The `<var>` Tag](#the-var-tag)
+  - [The `<bdo>` Tag](#the-bdo-tag)
 
 
 ## The <!DOCTYPE> Declaration
@@ -49,7 +55,7 @@ Metadata typically define the document title, character set, styles, scripts, an
 ## The Title Tag
 The `<title>` element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 
-The `<title`> element is required in HTML documents!
+The `<title>` element is required in HTML documents!
 
 The content of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
 
@@ -227,4 +233,62 @@ Examples: Disk usage, the relevance of a query result, etc.
 
 <label for="disk_d">Disk usage D:</label>
 <meter id="disk_d" value="0.6">60%</meter>
+```
+
+## The `<abbr>` Tag
+The `<abbr>` tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+
+```html
+<p>
+  <dfn><abbr title="Cascading Style Sheets">CSS</abbr></dfn> is a language that describes the style of an HTML document.
+</p>
+```
+
+## The `<del>` and `<ins>` Tags
+The `<ins>` tag defines a text that has been inserted into a document. Browsers will usually underline inserted text.
+
+The `<del>` tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.
+
+```html
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+```
+
+## The `<mark>` Tag
+The `<mark>` tag defines text that should be marked or highlighted.
+
+```html
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+```
+
+## The `<kbd>` Tag
+The `<kbd>` tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.
+
+```html
+<p>
+  Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).
+</p>
+
+<p>
+  Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).
+</p>
+```
+
+## The `<var>` Tag
+The `<var>` tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in _italic_.
+
+```html
+<p>
+  The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.
+</p>
+```
+
+## The `<bdo>` Tag
+BDO stands for Bi-Directional Override. The `<bdo>` tag is used to override the current text direction. A `dir` attribute must always be provided.
+
+```html
+<bdo dir="rtl">
+This text will go right-to-left.
+</bdo>
 ```

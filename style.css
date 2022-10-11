@@ -37,3 +37,8 @@ meter {
     width: 50%;
     height: 20px;
 }
+
+blockquote {
+    margin-left: 30%;
+    text-align: left;
+  }

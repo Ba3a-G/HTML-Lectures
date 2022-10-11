@@ -292,3 +292,52 @@ BDO stands for Bi-Directional Override. The `<bdo>` tag is used to override the 
 This text will go right-to-left.
 </bdo>
 ```
+
+## The `<blockquote>` Tag
+The `<blockquote>` tag specifies a section that is quoted from another source.
+
+```html
+<blockquote cite="https://developer.mozilla.org/en-US/">MDN is the holy grail for web-devs.</blockquote>
+```
+
+## The `<sub>` and `<sup>` Tags
+The tags are respectively used to put subscript and superscript in a paragraph.
+
+```html
+<p>
+  2<sup>nd</sup> and 3<sup>rd</sup> are superscripts.
+</p>
+<p>
+  H<sub>2</sub>O is a subscript.
+</p>
+```
+
+## The `<a>` Tag
+The tag is used to insert link in a paaragraph. The link is given inside the `href` parameter. If you want the link to open in new tab, you can use the `target` parameter.
+
+If you pass `__blank` to the target parameter, it will open in a new tab. The `__` is called *dunder*, short for *double under*.
+
+```html
+<p>
+  <a href="https://developer.mozilla.org/en-US/">MDN</a> is the holy grail for web-devs
+</p>
+<p>
+  This <a href="https://google.com" target="__blank">link</a> will open in a new tab.
+</p>
+```
+
+### The `mailto:` attribute
+If you put `mailto:youremail` in the `href` parameter, the link will open your mail app.
+
+```html
+<p>
+  You can email me <a href="mailto:me@ba3a.me">here</a>.
+</p>
+```
+
+## The `<base>` Tag
+The `<base>` tag specifies the base URL and/or target for all relative URLs in a document.
+
+The `<base>` tag must have either an href or a target attribute present, or both.
+
+There can only be one single `<base>` element in a document, and it must be inside the `<head>` element.

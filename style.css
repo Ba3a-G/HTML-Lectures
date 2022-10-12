@@ -42,3 +42,7 @@ blockquote {
     margin-left: 30%;
     text-align: left;
   }
+
+img {
+    width: 400px;
+}

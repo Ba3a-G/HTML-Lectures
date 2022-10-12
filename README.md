@@ -337,7 +337,16 @@ If you put `mailto:youremail` in the `href` parameter, the link will open your m
 
 ## The `<base>` Tag
 The `<base>` tag specifies the base URL and/or target for all relative URLs in a document.
-
 The `<base>` tag must have either an href or a target attribute present, or both.
-
 There can only be one single `<base>` element in a document, and it must be inside the `<head>` element.
+
+```html
+```
+
+## The `<img>` Tag
+The `img` tag is used to insert a picture inside an HTML document. The path of the images should be defined by the `src` attribute.
+
+```html
+<img src="img/main.png", width="100" alt="A random image", title="A random image">
+```
+

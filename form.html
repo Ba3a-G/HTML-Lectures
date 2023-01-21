@@ -1,0 +1,42 @@
+<!--A simple HTML Page with a form-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    <form action="mailto:mail@mail.me" method="post">
+        <div>
+            <label for="title">Title:</label>
+            <input type="radio" name="title" value="mrs">Mrs</input>
+            <input type="radio" name="title" value="mr">Mr</input>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Something">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Enter Something">
+            <label for="phone">Phone:</label>
+            <input type="phone" name="phone" id="phone" placeholder="Enter Something">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Something">
+            <label for="dob" id="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <label for="photo" id="photo">Photo:</label>
+            <input type="file" name="photo" id="photo">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Egypt">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <label for="message">Additional Information:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Something"></textarea>
+            <input type="checkbox" name="toc" id="toc">
+            <label for="toc" id="toc">Do you agree to our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">TOS</a>?</label>
+            <button type="submit">Submit</button>>
+        </div>
+    </form>
+</html>

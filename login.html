@@ -1,0 +1,96 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title>Login Page</title>  
+<style>
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+
+form {
+    border: 2px solid green;
+    width: 40%;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+}
+
+body {
+    font: 14px sans-serif;
+    color: white;
+    font-size: medium;
+    background: url("bg.png");
+    background-size: cover;
+}
+button {
+    width: 100%;
+    margin: 10px;
+}
+label {
+    margin: 10px;
+}
+
+#logo {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 0 1em 0 1em;
+  font-size: 1.1em;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  justify-content: end;
+  flex: 1;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px 0 25px;
+}
+</style>  
+</head>    
+<body> 
+    <nav class="nav">
+        <p id="logo">CodingLab</p>
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">About</a></li>
+            <li class="item"><a href="">Contact</a></li>
+        </ul>
+    </nav>   
+    <h1> Login Form </h1>
+    <form>  
+        <div class="form">   
+            <label>Username</label>   
+            <input type="text" placeholder="Enter Username">  
+            <label>Password</label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button>Login</button>
+            <input type="checkbox" checked="checked"> Remember me &nbsp; &nbsp;
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Forgot password?</a>   
+        </div>   
+    </form>     
+</body>     
+</html>

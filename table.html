@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>A simple HTML file with 5x7 table</title>
+        <style>
+            table, th, td {
+                border: 1px solid rgb(0, 193, 112);
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+            }
+            #vertical {
+                writing-mode: vertical-lr;
+            }
+            td:hover, th:hover {
+                background-color: rgba(255, 215, 192, 0.636);
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 80%; background-color:rgb(255, 250, 208)">
+            <tr>
+                <th rowspan="5" id="vertical">Something?!</th>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Misc</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Some text</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Some text</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Some text</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Some text</td>
+            </tr>
+        </table>
+        <br>
+        <table style="width: 80%; background-color:rgb(255, 250, 208)">
+            <tr>
+                <th colspan="4">Something?!</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Jill</td>
+                <td colspan="3">Smith</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+        </table>
+        <br>
+
+        <table style="width: 80%; background-color:rgb(255, 250, 208)" id="diffhead">
+            <tr>
+                <th>Something?!</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+        </table>
+    </body>
+</html>

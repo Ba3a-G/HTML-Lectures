@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>A simple HTML file with 5x5 table</title>
+        <style>
+            table, th, td {
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                border-collapse: collapse;
+                background-color: rgb(255, 250, 208);
+                padding: 15px;
+                text-align: center;
+            }
+            p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 15px;
+            }
+            td:nth-child(odd) > p {
+                background-color: rgb(211, 255, 208);
+            }
+            td:nth-child(even) > p {
+                background-color: rgb(255, 208, 226);
+            }
+            th > p {
+                background-color: rgb(196, 232, 255);
+            }
+            td:hover {
+                font-weight: bold;
+            }
+            th:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 60%">
+            <tr>
+                <th><p>Column 1</p></th>
+                <th><p>Column 2</p></th>
+                <th><p>Column 3</p></th>
+                <th><p>Column 4</p></th>
+                <th><p>Column 5</p></th>
+            </tr>
+            <tr>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+            </tr>
+            <tr>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+
+            </tr>
+            <tr>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+            </tr>
+            <tr>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+                <td><p>Cell</p></td>
+            </tr>
+        </table>
+    </body>
+</html>

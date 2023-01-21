@@ -3,12 +3,11 @@ body {
     padding: 8px;
     background-color: #1e2125;
     font-family: monospace;
-    text-align: center;
     color: #ccc;
 }
   
 span {
-    font-size: 15pt;
+    font-size: 25px;
     color: white;
 }
 
@@ -45,4 +44,41 @@ blockquote {
 
 img {
     width: 400px;
+}
+
+.author {
+    color: rgb(255, 9, 9);
+    font-size: 20px;
+    font-style: italic, bold;
+}
+
+
+.div1 {
+    padding: 0px, 0px, 0px, 100px;
+    width: 60%;
+}
+
+.div2 {
+    padding: 0px, 0px, 0px, 0px;
+    width: 60%;
+    background-color: #8bcf69;
+    text-align: left;
+}
+
+.label {
+    padding: 0px;
+    font-size: 20px;
+    text-align: left;
+}
+
+input {
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form {
+    padding: 10%;
+    text-align: left;
 }

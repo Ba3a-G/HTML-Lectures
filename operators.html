@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>JavaScript Comparison Operators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="variable">The entered number is: </p>
+    <h2>JavaScript []= Operators</h2>
+    <p id="p1">num += 5 returns </p>
+    <p id="p2">num -= 5 returns </p>
+    <p id="p3">num *= 5 returns </p>
+    <p id="p4">num /= 5 returns </p>
+    <p id="p5">num %= 5 returns </p>
+    <p id="p6">num **= 5 returns </p>
+    <script>
+        let a = parseInt(prompt("Enter a number"));
+        document.getElementById("variable").innerHTML += a;
+        document.getElementById("p1").innerHTML += a += 5;
+        document.getElementById("p2").innerHTML += a -= 5;
+        document.getElementById("p3").innerHTML += a *= 5;
+        document.getElementById("p4").innerHTML += a /= 5;
+        document.getElementById("p5").innerHTML += a %= 5;
+        document.getElementById("p6").innerHTML += a **= 5;
+    </script>
+    <!--Simple Arithmetic Operators-->
+    <h2>Simple Arithmetic Operators</h2>
+    <p id="a1">num + 5 returns </p>
+    <p id="a2">num - 5 returns </p>
+    <p id="a3">num * 5 returns </p>
+    <p id="a4">num / 5 returns </p>
+    <p id="a5">num % 5 returns </p>
+    <p id="a6">num ** 5 returns </p>
+    <script>
+        let b = a;
+        document.getElementById("a1").innerHTML += b + 5;
+        document.getElementById("a2").innerHTML += b - 5;
+        document.getElementById("a3").innerHTML += b * 5;
+        document.getElementById("a4").innerHTML += b / 5;
+        document.getElementById("a5").innerHTML += b % 5;
+        document.getElementById("a6").innerHTML += b ** 5;
+    </script>
+</body>
+</html>
